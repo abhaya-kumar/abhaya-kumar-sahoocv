@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My CV</title>
+  <style>
+    img {
+      width: 120px;
+      height: 134px;
+      float: right;
+      margin: -10px 0 0 20px;
+    }
+
+    .education,h2{
+      margin-top: 5px;
+      margin-bottom: 5px;
+    }
+
+    .education ul{
+      list-style: none;
+      padding: 0;
+    }
+    .education li {
+      margin-bottom: 2px;
+    }
+    #body{
+      font-family: sans-serif;
+
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <img src="mypic.jpg" alt="Profile Picture">
+      <h1>ABHAYA KUMAR SAHOO</h1>
+      <p>Phone: (+91) 9337891449 | Email: abhayakumar490@gmail.com</p>
+      <Address>Address: Bhubaneswar, Odisha</address>
+    </header>
+    <hr>
+    <section>
+      <h2>Education</h2>
+      <ul>
+        <li>
+          <strong>Master of Computer Application</strong><br>
+          Trident Academy of Creative Technology, Bhubaneswar, Odisha<br>
+          Marks:7.71(1st sem)  <br>
+          Passout:2024
+        </li> <br>
+        <li>
+          <strong>BSc (Physics)</strong><br>
+          <span id="bsc-institute"></span><br>
+          Marks: <span id="bsc-marks"></span><br>
+          Passout:2019
+        </li><br>
+        <li><strong>12th Grade (Senior Secondary)</strong><br>
+          <span id="12th-institute"></span><br>
+          Marks: <span id="12th-marks"></span><br>
+          Passout:2016
+        </li> <br>
+        <li>
+          <strong>10th Grade (Secondary)</strong>
+          <br>
+          <span id="10th-institute"></span><br>
+          Marks: <span id="10th-marks"></span><br>Passout:2014
+      </ul>
+    </section>
+
+    <section>
+      <h2>Technical Skills</h2>
+      <ul>
+        <li>Programming Languages:C,Java,Python.</li>
+        <li>Web Designing:HTML,CSS,JavaScript,React.js.</li>
+        <li>Database:Relational database,SQL.</li>
+        <li>Networking:ISO-OSI Networking Protocols,TCP/IP,Switching and Routing.</li>
+        <li>Software Development Life Cycle Concepts,Object oriented design,Design pattern.</li>
+        <li>Other skills:MS-Excel,MS-Word,MS-PowerPoint.</li>
+      </ul>
+    </section>
+    <section>
+      <h2>Projects</h2>
+      <ul>
+        <li>
+          <h3>College Website</h3>
+          Got a website for our college to make it as attractive and dynamic,Learned how the college home page
+            contains several information about like the site campus management,facilities and infrastructure.
+        </li>
+        <li>
+          <h3>Personal Projects</h3>
+          Designed and developed a personal portfolio website to showcase my skills, projects, and accomplishments.
+            Implemented a responsive web design using HTML, CSS, and JavaScript to ensure optimal user experience across
+            devices.
+        </li>
+      </ul>
+    </section>
+    <section> 
+      <h2>Internship Experience</h2>
+      IT and Web Development Intern
+      <strong>BasketHunt</strong>,Sahibganj,Jharkhand <br>
+      Aug 2023 - Present <br>
+      <li>Collaborated with the development team to design and implement new features for the company'swebsite. </li>
+      <li>Developed and maintained internal tools to streamline workflow and enhance team efficiency. </li>
+      <li>Gained hands-on experience with front-end technologies such as HTML, CSS, and JavaScript. </li>
+      <li>Improved problem-solving skills by tackling real-world technical challenges in a team environment. </li>
+
+      </section>
+   <br>
+    <section>
+      <h2>Objective</h2>
+      As an enthusiastic MCA student, I am eager to apply my academic knowledge and technical skills in programming languages like C, Java, and Python to real-world projects. Seeking an  opportunity that will allow me to bridge the gap between theory and practice, collaborate with industry professionals, and contribute to innovative solutions. I am committed to continuous learning and growth in the field of IT and web development.
+    </section>
+
+    <section>
+      <h2>Additional Information</h2>
+      <ul>
+        <li>NPTL Online Certification for completing the course Problem Solving through Programming in C</li>
+        <li>Completed 30days Master Class on Python Programming by Pantech e Learning</li>
+      </ul>
+    </section>
+  </div>
+
+  <script>
+    document.getElementById("bsc-institute").innerText = "D.R Nayapalli College,Bhubaneswar";
+    document.getElementById("bsc-marks").innerText = "66.92%";
+    document.getElementById("12th-institute").innerText = "Rajadhani College,Bhubaneswar";
+    document.getElementById("12th-marks").innerText = "65.16%";
+    document.getElementById("10th-institute").innerText = "Tapovan High School,Bhubaneswar";
+    document.getElementById("10th-marks").innerText = "75.5%";
+  </script>
+</body>
+
+</html>
